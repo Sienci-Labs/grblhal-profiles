@@ -6,7 +6,6 @@
       "Y_AUTO_SQUARE": 1,
       "NGC_EXPRESSIONS_ENABLE": 1,
       "ENABLE_BACKLASH_COMPENSATION": 1,
-      "TOOLSETTER_ENABLE": 1,
       "SDCARD_ENABLE": 2,
       "NETWORKING_ENABLE": 1,
       "TELNET_ENABLE": 1,
@@ -111,4 +110,3 @@
     }
   ]
 }
-
