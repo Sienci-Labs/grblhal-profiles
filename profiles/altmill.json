@@ -72,37 +72,15 @@
   },
   "variants": [
     {
-      "name": "Altmill 2x4",
-      "URL": "https://sienci.com/product/altmill/",
-      "setting_defaults": {
-        "DEFAULT_Y_MAX_TRAVEL": 635
-      }
-    },
-    {
-      "name": "Altmill 4x4",
-      "URL": "https://sienci.com/product/altmill/",
-      "setting_defaults": {
-        "DEFAULT_Y_MAX_TRAVEL": 1251
-      }
-    },
-    {
-      "name": "Altmill 4x4 with rotary",
-      "URL": "https://sienci.com/product/altmill/",
-      "default_symbols": {
-        "ROTARY_FIX": 1,
-        "N_AXIS": 4
-      },
-      "setting_defaults": {
-        "DEFAULT_Y_MAX_TRAVEL": 1251
-      }
-    },
-    {
-      "name": "Altmill 4x4 with rotary and tool table",
+      "name": "Altmill Stock Firmware (4 Axes Rotary, Tool Table, etc)",
       "URL": "https://sienci.com/product/altmill/",
       "default_symbols": {
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
-        "N_TOOLS": 8
+        "N_TOOLS": 8,
+        "SPINDLE0_ENABLE": 6,
+        "SPINDLE1_ENABLE": 11,
+        "SPINDLE2_ENABLE": 15
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1251

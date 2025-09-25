@@ -92,21 +92,7 @@
   },
   "variants": [
     {
-      "name": "LongMill MK2 12x30",
-      "URL": "https://sienci.com/product/longmill-mk2-12x30/",
-      "setting_defaults": {
-        "DEFAULT_X_MAX_TRAVEL": 320
-      }
-    },
-    {
-      "name": "LongMill MK2 30x30",
-      "URL": "https://sienci.com/product/longmill-mk2/",
-      "setting_defaults": {
-        "DEFAULT_X_MAX_TRAVEL": 810
-      }
-    },
-    {
-      "name": "LongMill MK2 30x30 with rotary",
+      "name": "LongMill Stock Firmware",
       "URL": "https://sienci.com/product/longmill-mk2/",
       "default_symbols": {
         "ROTARY_FIX": 1,
@@ -114,13 +100,6 @@
       },
       "setting_defaults": {
         "DEFAULT_X_MAX_TRAVEL": 810
-      }
-    },
-    {
-      "name": "LongMill MK2 48x30",
-      "URL": "https://sienci.com/product/longmill-mk2-48x30/",
-      "setting_defaults": {
-        "DEFAULT_X_MAX_TRAVEL": 1280
       }
     }
   ]
