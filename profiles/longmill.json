@@ -92,7 +92,7 @@
   },
   "variants": [
     {
-      "name": "LongMill Stock Firmware (4 Axes Rotary, Tool Table, etc)",
+      "name": "LongMill Stock Firmware (4 Axes Rotary, Tool Table, NGC Expressions etc)",
       "URL": "https://sienci.com/product/longmill-mk2/",
       "default_symbols": {
         "ROTARY_FIX": 1,
@@ -101,7 +101,8 @@
         "N_SPINDLE": 3,
         "SPINDLE0_ENABLE": 11,
         "SPINDLE1_ENABLE": 14,
-        "SPINDLE2_ENABLE": 6
+        "SPINDLE2_ENABLE": 6,
+        "ODOMETER_ENABLE": 1
       },
       "setting_defaults": {
         "DEFAULT_X_MAX_TRAVEL": 810
