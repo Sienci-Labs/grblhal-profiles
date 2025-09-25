@@ -80,7 +80,7 @@
         "N_TOOLS": 8,
         "N_SPINDLE": 3,
         "SPINDLE0_ENABLE": 11,
-        "SPINDLE1_ENABLE": 15,
+        "SPINDLE1_ENABLE": 14,
         "SPINDLE2_ENABLE": 6
       },
       "setting_defaults": {
