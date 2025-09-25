@@ -3,6 +3,7 @@
     "default_driver": "STM32F4xx",
     "default_board": "BOARD_LONGBOARD32",
     "default_symbols": {
+      "Y_GANGED": 1,
       "NGC_EXPRESSIONS_ENABLE": 1,
       "ENABLE_BACKLASH_COMPENSATION": 1,
       "SDCARD_ENABLE": 2,
