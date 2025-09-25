@@ -21,7 +21,7 @@
       "SPINDLE2_ENABLE": 1
     },
     "setting_defaults": {
-      "DEFAULT_STEPPER_IDLE_LOCK_TIME": 254,
+      "DEFAULT_STEPPER_IDLE_LOCK_TIME": 255,
       "DEFAULT_DIR_SIGNALS_INVERT_MASK": 6,
       "DEFAULT_LIMIT_SIGNALS_INVERT_MASK": 15,
       "DEFAULT_PROBE_SIGNAL_INVERT": 1,
@@ -45,14 +45,14 @@
       "DEFAULT_INVERT_SPINDLE_CCW_PIN": 0,
       "DEFAULT_INVERT_SPINDLE_PWM_PIN": 0,
       "DEFAULT_SPINDLE_RPM_MAX": 24000,
-      "DEFAULT_SPINDLE_RPM_MIN": 7200,
+      "DEFAULT_SPINDLE_RPM_MIN": 7500,
       "DEFAULT_SPINDLE_PWM_FREQ": 1000,
       "DEFAULT_DOOR_IGNORE_WHEN_IDLE": 1,
       "DEFAULT_DOOR_KEEP_COOLANT_ON": 1,
       "DEFAULT_X_CURRENT": 2800,
       "DEFAULT_Y_CURRENT": 2800,
       "DEFAULT_Z_CURRENT": 2800,
-      "DEFAULT_X_MAX_TRAVEL": 810,
+      "DEFAULT_X_MAX_TRAVEL": 1260,
       "DEFAULT_Y_MAX_TRAVEL": 855,
       "DEFAULT_Z_MAX_TRAVEL": 120,
       "DEFAULT_A_MAX_TRAVEL": 0,
@@ -96,7 +96,11 @@
       "URL": "https://sienci.com/product/longmill-mk2/",
       "default_symbols": {
         "ROTARY_FIX": 1,
-        "N_AXIS": 4
+        "N_AXIS": 4,
+        "N_SPINDLE": 3,
+        "SPINDLE0_ENABLE": 6,
+        "SPINDLE1_ENABLE": 11,
+        "SPINDLE2_ENABLE": 15
       },
       "setting_defaults": {
         "DEFAULT_X_MAX_TRAVEL": 810

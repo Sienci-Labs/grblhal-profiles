@@ -22,7 +22,7 @@
     },
     "setting_defaults": {
       "DEFAULT_X_MAX_TRAVEL": 810,
-      "DEFAULT_STEPPER_IDLE_LOCK_TIME": 254,
+      "DEFAULT_STEPPER_IDLE_LOCK_TIME": 255,
       "DEFAULT_DIR_SIGNALS_INVERT_MASK": 6,
       "DEFAULT_LIMIT_SIGNALS_INVERT_MASK": 15,
       "DEFAULT_PROBE_SIGNAL_INVERT": 1,
@@ -78,6 +78,7 @@
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
         "N_TOOLS": 8,
+        "N_SPINDLE": 3,
         "SPINDLE0_ENABLE": 6,
         "SPINDLE1_ENABLE": 11,
         "SPINDLE2_ENABLE": 15
