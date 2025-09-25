@@ -79,9 +79,9 @@
         "N_AXIS": 4,
         "N_TOOLS": 8,
         "N_SPINDLE": 3,
-        "SPINDLE0_ENABLE": 6,
-        "SPINDLE1_ENABLE": 11,
-        "SPINDLE2_ENABLE": 15
+        "SPINDLE0_ENABLE": 11,
+        "SPINDLE1_ENABLE": 15,
+        "SPINDLE2_ENABLE": 6
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1251
