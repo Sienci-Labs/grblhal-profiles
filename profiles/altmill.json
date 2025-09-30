@@ -77,12 +77,11 @@
       "default_symbols": {
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
-        "N_TOOLS": 8,
+        "N_TOOLS": 32,
         "N_SPINDLE": 3,
         "SPINDLE0_ENABLE": 11,
         "SPINDLE1_ENABLE": 14,
-        "SPINDLE2_ENABLE": 6,
-        "ODOMETER_ENABLE": 1
+        "SPINDLE2_ENABLE": 6
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1251
