@@ -19,7 +19,6 @@
       "SPINDLE0_ENABLE": 11,
       "SPINDLE1_ENABLE": 14,
       "SPINDLE2_ENABLE": 1,
-      "VFD_ADDRESS": 2,
       "SIENCI_ATCI": 1
     },
     "setting_defaults": {
@@ -75,7 +74,8 @@
       "DEFAULT_HOMING_DEBOUNCE_DELAY": 25,
       "DEFAULT_SAFETY_DOOR_SPINDLE_DELAY": 11,
       "DEFAULT_PLANNER_BUFFER_BLOCKS": 128,
-      "DEFAULT_MOTOR_FAULT_SIGNALS_ENABLE": 15
+      "DEFAULT_MOTOR_FAULT_SIGNALS_ENABLE": 15,
+      "VFD_ADDRESS": 2
     }
   },
   "variants": [
