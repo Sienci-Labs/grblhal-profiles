@@ -18,8 +18,7 @@
       "EVENTOUT_ENABLE": 1,
       "SPINDLE0_ENABLE": 11,
       "SPINDLE1_ENABLE": 14,
-      "SPINDLE2_ENABLE": 1,
-      "SIENCI_ATCI": 1
+      "SPINDLE2_ENABLE": 1
     },
     "setting_defaults": {
       "DEFAULT_X_MAX_TRAVEL": 1260,
@@ -90,6 +89,24 @@
         "SPINDLE0_ENABLE": 11,
         "SPINDLE1_ENABLE": 14,
         "SPINDLE2_ENABLE": 6
+      },
+      "setting_defaults": {
+        "DEFAULT_Y_MAX_TRAVEL": 1248,
+        "DEFAULT_Z_MAX_TRAVEL": 200
+      }
+    },
+    {
+      "name": "Altmill ATC Firmware (Stock + Keepout Plugin)",
+      "URL": "https://sienci.com/product/altmill/",
+      "default_symbols": {
+        "ROTARY_FIX": 1,
+        "N_AXIS": 4,
+        "N_TOOLS": 32,
+        "N_SPINDLE": 3,
+        "SPINDLE0_ENABLE": 11,
+        "SPINDLE1_ENABLE": 14,
+        "SPINDLE2_ENABLE": 6,
+        "SIENCI_ATCI": 1
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1248,
