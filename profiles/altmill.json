@@ -19,7 +19,7 @@
       "SPINDLE0_ENABLE": 11,
       "SPINDLE1_ENABLE": 14,
       "SPINDLE2_ENABLE": 1,
-      "VFD_ADDRESS0": 2,
+      "VFD_ADDRESS": 2,
       "SIENCI_ATCI": 1
     },
     "setting_defaults": {
