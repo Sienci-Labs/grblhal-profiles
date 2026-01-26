@@ -18,7 +18,8 @@
       "EVENTOUT_ENABLE": 1,
       "SPINDLE0_ENABLE": 11,
       "SPINDLE1_ENABLE": 14,
-      "SPINDLE2_ENABLE": 1
+      "SPINDLE2_ENABLE": 1,
+      "VFD_ADDRESS0": 2
     },
     "setting_defaults": {
       "DEFAULT_X_MAX_TRAVEL": 1260,
