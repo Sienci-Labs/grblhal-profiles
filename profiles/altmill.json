@@ -4,7 +4,6 @@
     "default_board": "BOARD_LONGBOARD32_EXT",
     "default_symbols": {
       "Y_AUTO_SQUARE": 1,
-      "NGC_EXPRESSIONS_ENABLE": 1,
       "ENABLE_BACKLASH_COMPENSATION": 1,
       "SDCARD_ENABLE": 2,
       "NETWORKING_ENABLE": 1,
@@ -79,17 +78,18 @@
   },
   "variants": [
     {
-      "name": "Altmill Stock Firmware (4 Axes Rotary, Tool Table, NGC Expressions etc)",
+      "name": "Altmill MK2 4x4 Stock Firmware (Incl 4 Axes/Rotary)",
       "URL": "https://sienci.com/product/altmill/",
       "default_symbols": {
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
-        "N_TOOLS": 32,
         "N_SPINDLE": 3,
         "SPINDLE0_ENABLE": 11,
         "SPINDLE1_ENABLE": 14,
         "SPINDLE2_ENABLE": 6,
-        "SIENCI_ATCI": 0
+        "SIENCI_ATCI": 0,
+        "N_TOOLS": 0,
+        "NGC_EXPRESSIONS_ENABLE": 0
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1248,
@@ -97,8 +97,8 @@
       }
     },
     {
-      "name": "Altmill ATC Firmware (Stock + Keepout Plugin)",
-      "URL": "https://sienci.com/product/altmill/",
+      "name": "Altmill MK2 4x4 ATC Firmware (Keepout Plugin, NGC Expressions, Tool Table)",
+      "URL": "https://sienci.com/product/automatic_tool_changer/",
       "default_symbols": {
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
@@ -107,7 +107,9 @@
         "SPINDLE0_ENABLE": 11,
         "SPINDLE1_ENABLE": 14,
         "SPINDLE2_ENABLE": 6,
-        "SIENCI_ATCI": 1
+        "SIENCI_ATCI": 1,
+        "N_TOOLS": 32,
+        "NGC_EXPRESSIONS_ENABLE": 1
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1248,

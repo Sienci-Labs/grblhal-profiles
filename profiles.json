@@ -8,7 +8,7 @@
       "description": "Sienci AltMill MK2"
     },
     {
-      "name": "Sienci Longmill",
+      "name": "Sienci Longmill MK2",
       "profileURL": "https://github.com/Sienci-Labs/grblhal-profiles/blob/main/profiles/longmill.json",
       "URL": "https://resources.sienci.com/view/lmmk2/",
       "type": "router",
