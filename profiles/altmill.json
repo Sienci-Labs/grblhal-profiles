@@ -83,7 +83,7 @@
       "default_symbols": {
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
-        "AXIS3_LETTER": 65,
+        "AXIS3_LETTER": "'A'",
         "N_SPINDLE": 3,
         "SPINDLE0_ENABLE": 11,
         "SPINDLE1_ENABLE": 14,
@@ -103,7 +103,7 @@
       "default_symbols": {
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
-        "AXIS3_LETTER": 65,
+        "AXIS3_LETTER": "'A'",
         "N_TOOLS": 32,
         "N_SPINDLE": 3,
         "SPINDLE0_ENABLE": 11,
