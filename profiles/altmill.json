@@ -94,7 +94,7 @@
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1248,
-        "DEFAULT_Z_MAX_TRAVEL": 200
+        "DEFAULT_Z_MAX_TRAVEL": 170
       }
     },
     {
@@ -115,7 +115,7 @@
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1248,
-        "DEFAULT_Z_MAX_TRAVEL": 200
+        "DEFAULT_Z_MAX_TRAVEL": 170
       }
     }
   ]
