@@ -78,7 +78,7 @@
   },
   "variants": [
     {
-      "name": "Altmill MK2 4x4 Stock Firmware (Incl 4 Axes/Rotary)",
+      "name": "Altmill MK2 4x4 Mini Firmware (Incl 4 Axes/Rotary)",
       "URL": "https://sienci.com/product/altmill/",
       "default_symbols": {
         "ROTARY_FIX": 1,
@@ -98,7 +98,7 @@
       }
     },
     {
-      "name": "Altmill MK2 4x4 ATC Firmware (Keepout Plugin, NGC Expressions, Tool Table)",
+      "name": "Altmill MK2 4x4 STANDARD Firmware (Keepout Plugin, NGC Expressions, Tool Table, 4 Axes, H100)",
       "URL": "https://sienci.com/product/automatic_tool_changer/",
       "default_symbols": {
         "ROTARY_FIX": 1,
@@ -109,6 +109,27 @@
         "SPINDLE0_ENABLE": 11,
         "SPINDLE1_ENABLE": 14,
         "SPINDLE2_ENABLE": 6,
+        "SIENCI_ATCI": 1,
+        "N_TOOLS": 32,
+        "NGC_EXPRESSIONS_ENABLE": 1
+      },
+      "setting_defaults": {
+        "DEFAULT_Y_MAX_TRAVEL": 1248,
+        "DEFAULT_Z_MAX_TRAVEL": 170
+      }
+    },
+    {
+      "name": "Altmill MK2 4x4 DurapulseGS20 Firmware (Keepout Plugin, NGC Expressions, Tool Table, 4 Axes, GS20)",
+      "URL": "https://sienci.com/product/automatic_tool_changer/",
+      "default_symbols": {
+        "ROTARY_FIX": 1,
+        "N_AXIS": 4,
+        "AXIS3_LETTER": "'A'",
+        "N_TOOLS": 32,
+        "N_SPINDLE": 3,
+        "SPINDLE0_ENABLE": 11,
+        "SPINDLE1_ENABLE": 14,
+        "SPINDLE2_ENABLE": 3,
         "SIENCI_ATCI": 1,
         "N_TOOLS": 32,
         "NGC_EXPRESSIONS_ENABLE": 1
