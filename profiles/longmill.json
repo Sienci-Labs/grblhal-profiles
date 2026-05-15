@@ -16,9 +16,10 @@
       "N_MACROS": 3,
       "STATUS_LIGHT_ENABLE": 2,
       "EVENTOUT_ENABLE": 1,
-      "SPINDLE0_ENABLE": 11,
-      "SPINDLE1_ENABLE": 14,
-      "SPINDLE2_ENABLE": 1,
+      "N_SPINDLE": 12,
+      "SPINDLE0_ENABLE": "SPINDLE_ALL_VFD",
+      "SPINDLE1_ENABLE": "SPINDLE_PWM0",
+      "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
       "SPINDLE_OFFSET": 1
     },
     "setting_defaults": {
@@ -100,10 +101,10 @@
         "N_AXIS": 4,
         "AXIS3_LETTER": "'A'",
         "N_TOOLS": 32,
-        "N_SPINDLE": 3,
-        "SPINDLE0_ENABLE": 11,
-        "SPINDLE1_ENABLE": 14,
-        "SPINDLE2_ENABLE": 6
+        "N_SPINDLE": 12,
+        "SPINDLE0_ENABLE": "SPINDLE_ALL_VFD",
+        "SPINDLE1_ENABLE": "SPINDLE_PWM0",
+        "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
       },
       "setting_defaults": {
         "DEFAULT_X_MAX_TRAVEL": 810
