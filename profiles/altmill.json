@@ -76,7 +76,13 @@
       "DEFAULT_SAFETY_DOOR_SPINDLE_DELAY": 11,
       "DEFAULT_PLANNER_BUFFER_BLOCKS": 128,
       "DEFAULT_MOTOR_FAULT_SIGNALS_ENABLE": 15,
-      "VFD_ADDRESS": 2
+      "VFD_ADDRESS": 2,
+      "N_SPINDLE": 12,
+      "SPINDLE0_ENABLE": "SPINDLE_ALL_VFD",
+      "SPINDLE1_ENABLE": "SPINDLE_PWM0",
+      "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
+      "DEFAULT_PWM_SPINDLE1_IGNORE_DELAYS": 1,
+      "DEFAULT_PWM_SPINDLE_DISABLE_LASER_MODE": 1,
     }
   },
   "variants": [
@@ -87,55 +93,9 @@
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
         "AXIS3_LETTER": "'A'",
-        "N_SPINDLE": 12,
-        "SPINDLE0_ENABLE": "SPINDLE_ALL_VFD",
-        "SPINDLE1_ENABLE": "SPINDLE_PWM0",
-        "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
         "SIENCI_ATCI": 0,
         "N_TOOLS": 0,
         "NGC_EXPRESSIONS_ENABLE": 0
-      },
-      "setting_defaults": {
-        "DEFAULT_Y_MAX_TRAVEL": 1248,
-        "DEFAULT_Z_MAX_TRAVEL": 170
-      }
-    },
-    {
-      "name": "Altmill MK2 4x4 STANDARD Firmware (Keepout Plugin, NGC Expressions, Tool Table, 4 Axes, H100)",
-      "URL": "https://sienci.com/product/automatic_tool_changer/",
-      "default_symbols": {
-        "ROTARY_FIX": 1,
-        "N_AXIS": 4,
-        "AXIS3_LETTER": "'A'",
-        "N_TOOLS": 32,
-        "N_SPINDLE": 12,
-        "SPINDLE0_ENABLE": "SPINDLE_ALL_VFD",
-        "SPINDLE1_ENABLE": "SPINDLE_PWM0",
-        "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
-        "SIENCI_ATCI": 1,
-        "N_TOOLS": 32,
-        "NGC_EXPRESSIONS_ENABLE": 1
-      },
-      "setting_defaults": {
-        "DEFAULT_Y_MAX_TRAVEL": 1248,
-        "DEFAULT_Z_MAX_TRAVEL": 170
-      }
-    },
-    {
-      "name": "Altmill MK2 4x4 DurapulseGS20 Firmware (Keepout Plugin, NGC Expressions, Tool Table, 4 Axes, GS20)",
-      "URL": "https://sienci.com/product/automatic_tool_changer/",
-      "default_symbols": {
-        "ROTARY_FIX": 1,
-        "N_AXIS": 4,
-        "AXIS3_LETTER": "'A'",
-        "N_TOOLS": 32,
-        "N_SPINDLE": 12,
-        "SPINDLE0_ENABLE": "SPINDLE_ALL_VFD",
-        "SPINDLE1_ENABLE": "SPINDLE_PWM0",
-        "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
-        "SIENCI_ATCI": 1,
-        "N_TOOLS": 32,
-        "NGC_EXPRESSIONS_ENABLE": 1
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1248,
