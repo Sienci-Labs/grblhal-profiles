@@ -102,7 +102,7 @@
         "N_TOOLS": 32,
         "SPINDLE0_ENABLE": "SPINDLE_ALL_VFD",
         "SPINDLE1_ENABLE": "SPINDLE_PWM0",
-        "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
+        "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR"
       },
       "setting_defaults": {
         "DEFAULT_X_MAX_TRAVEL": 810
