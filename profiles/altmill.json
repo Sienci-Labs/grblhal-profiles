@@ -19,8 +19,7 @@
       "SPINDLE1_ENABLE": "SPINDLE_PWM0",
       "SPINDLE2_ENABLE": "SPINDLE_PWM1_NODIR",
       "SPINDLE_OFFSET": 1,
-      "SAFETY_DOOR_ENABLE": 0,
-      "ESTOP_ENABLE": 1
+      "SAFETY_DOOR_ENABLE": 0
     },
     "setting_defaults": {
       "DEFAULT_X_MAX_TRAVEL": 1260,
