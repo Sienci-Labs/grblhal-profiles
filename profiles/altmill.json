@@ -87,15 +87,15 @@
   },
   "variants": [
     {
-      "name": "Altmill MK2 4x4 Mini Firmware (Incl 4 Axes/Rotary)",
+      "name": "Altmill MK2 4x4 Standard Firmware (Incl 4 Axes/Rotary, ATC, Keepout, Tool Table and Expressions)",
       "URL": "https://sienci.com/product/altmill/",
       "default_symbols": {
         "ROTARY_FIX": 1,
         "N_AXIS": 4,
         "AXIS3_LETTER": "'A'",
-        "SIENCI_ATCI": 0,
-        "N_TOOLS": 0,
-        "NGC_EXPRESSIONS_ENABLE": 0
+        "SIENCI_ATCI": 1,
+        "N_TOOLS": 32,
+        "NGC_EXPRESSIONS_ENABLE": 1
       },
       "setting_defaults": {
         "DEFAULT_Y_MAX_TRAVEL": 1248,
