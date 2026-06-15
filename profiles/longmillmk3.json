@@ -1,6 +1,6 @@
 {
   "machine": {
-    "default_driver": "RP2040",
+    "default_driver": "RP2040 (Pi Pico & Pi Pico W)",
     "default_board": "BOARD_SLB_LITE",
     "default_symbols": {
       "ROTARY_FIX": 1,
