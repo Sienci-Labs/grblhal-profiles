@@ -1,6 +1,6 @@
 {
   "machine": {
-    "default_driver": "STM32F4xx",
+    "default_driver": "RP2040",
     "default_board": "BOARD_SLB_LITE",
     "default_symbols": {
       "ROTARY_FIX": 1,
@@ -90,7 +90,7 @@
         "DEFAULT_X_ACCELERATION": 750,
         "DEFAULT_Y_ACCELERATION": 750,
         "DEFAULT_Z_ACCELERATION": 750,
-        "DEFAULT_A_ACCELERATION": 1000,
+        "DEFAULT_A_ACCELERATION": 750,
         "DEFAULT_X_MAX_RATE": 7000,
         "DEFAULT_Y_MAX_RATE": 7000,
         "DEFAULT_Z_MAX_RATE": 4000,
@@ -117,7 +117,7 @@
         "DEFAULT_X_ACCELERATION": 750,
         "DEFAULT_Y_ACCELERATION": 750,
         "DEFAULT_Z_ACCELERATION": 750,
-        "DEFAULT_A_ACCELERATION": 1000,
+        "DEFAULT_A_ACCELERATION": 750,
         "DEFAULT_X_MAX_RATE": 7000,
         "DEFAULT_Y_MAX_RATE": 7000,
         "DEFAULT_Z_MAX_RATE": 4000,
