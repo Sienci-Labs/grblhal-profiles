@@ -85,7 +85,7 @@
       },
       "setting_defaults": {
         "DEFAULT_X_MAX_TRAVEL": 1296,
-        "DEFAULT_Y_MAX_TRAVEL": 170,
+        "DEFAULT_Y_MAX_TRAVEL": 812,
         "DEFAULT_Z_MAX_TRAVEL": 129,
         "DEFAULT_A_MAX_TRAVEL": 0,
         "DEFAULT_X_ACCELERATION": 750,
