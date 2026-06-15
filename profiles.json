@@ -13,6 +13,13 @@
       "URL": "https://resources.sienci.com/view/lmmk2/",
       "type": "router",
       "description": "Sienci LongMill Benchtop CNC MK2.5"
+    },
+    {
+      "name": "Sienci Longmill MK3",
+      "profileURL": "https://github.com/Sienci-Labs/grblhal-profiles/blob/main/profiles/longmillmk3.json",
+      "URL": "https://resources.sienci.com/view/lmmk3/",
+      "type": "router",
+      "description": "Sienci LongMill Benchtop CNC MK3"
     }
   ]
 }
