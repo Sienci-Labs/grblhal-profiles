@@ -24,7 +24,8 @@
       "SAFETY_DOOR_ENABLE": 0,
       "CONTROL_ENABLE": 1,
       "N_AXIS": 4,
-      "AXIS3_LETTER": "'A'"
+      "AXIS3_LETTER": "'A'",
+      "TOOLSETTER_ENABLE": 1
     },
     "setting_defaults": {
       "DEFAULT_STEPPER_IDLE_LOCK_TIME": 255,
