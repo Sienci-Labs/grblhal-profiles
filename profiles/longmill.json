@@ -81,7 +81,9 @@
       "DEFAULT_RGB_STRIP1_LENGTH": 0,
       "DEFAULT_PERSIST_TOOL": 1,
       "DEFAULT_Y_MAX_TRAVEL": 855,
-      "NETWORK_IPMODE": 0
+      "NETWORK_IPMODE": 0,
+      "DEFAULT_SPINDLE": 11,
+      "DEFAULT_SPINDLE2": 14
     },
     "setting_defaults_trinamic": {
       "TRINAMIC_DEFAULT_MICROSTEPS": 32,
