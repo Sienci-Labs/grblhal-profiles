@@ -28,7 +28,8 @@
       "TOOLSETTER_ENABLE": 1,
       "_WIZCHIP_":  5500,
       "MCP23017_ENABLE":  1,
-      "MOTOR_FAULT_ENABLE": 1
+      "MOTOR_FAULT_ENABLE": 1,
+      "HOMING_PULLOFF_ENABLE": 1
     },
     "setting_defaults": {
       "DEFAULT_STEPPER_IDLE_LOCK_TIME": 255,
@@ -81,7 +82,11 @@
       "DEFAULT_SPINDLE": 12,
       "DEFAULT_SPINDLE2": 14,
       "NETWORK_IPMODE": 0,
-      "DEFAULT_FS_SD_AUTOMOUNT": 1
+      "DEFAULT_FS_SD_AUTOMOUNT": 1,
+      "DEFAULT_X_HOMING_PULLOFF": 12,
+      "DEFAULT_Y_HOMING_PULLOFF": 2,
+      "DEFAULT_Z_HOMING_PULLOFF": 2,
+      "DEFAULT_A_HOMING_PULLOFF": 2
     }
   },
   "variants": [
